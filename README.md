@@ -1,4 +1,4 @@
-# Converting a Cloud Native Application to a Multicloud Managment Application 
+# Converting a Cloud Native Application to a Multicloud Management Application 
 
 ## Overview 
 
@@ -358,7 +358,7 @@ spec:
 
     ## Image Policy 
 
-    If you have IBM Containter Image Security Enforcement enabled in your MCM cluster, you can limit where images are allowed to be pulled from by specifying the allowed repositories to use. Lets see our image-policy.yaml file. 
+    If you have IBM Container Image Security Enforcement enabled in your MCM cluster, you can limit where images are allowed to be pulled from by specifying the allowed repositories to use. Lets see our image-policy.yaml file. 
 
     ``` yaml
     
@@ -386,7 +386,7 @@ spec:
 
 ## Creating our MCM Application  
 
-Now that we have covered our resources and know what each of them do, we can go ahead and deploy our Nginx MCM App on an Openshift Cluster by follwing the steps below: 
+Now that we have covered our resources and know what each of them do, we can go ahead and deploy our Nginx MCM App on an Openshift Cluster by following the steps below: 
 
 1. Login to your OpenShift environment by copying your login credentials from the Openshift UI.
 
